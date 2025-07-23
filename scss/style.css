@@ -18,6 +18,11 @@
   background: #015f50;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   width: 100%;
   direction: rtl;
