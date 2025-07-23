@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../media/tap-icon.svg" type="image/x-icon" />
+  <link rel="shortcut icon" href="../media/tap-icon.svg" />
+  <link rel="apple-touch-icon" href="../media/tap-icon.svg" />
+  <meta http-equiv="Content-Security-Policy" content="frame-src https://www.google.com;">
+  <meta name="color-scheme" content="light only">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="../scss/bootstrap.min.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css">
+  <link rel="stylesheet" href="../js/swiper-bundle.min.css">
+  <link rel="stylesheet" href="../scss/style.css">
+  <title>Backaldrin</title>
+</head>
+
+<body>
+    <!-- Start Search -->
+  <div class="s-n">
+    <div class="box">
+      <form class="search">
+        <input type="search" placeholder="البحث...">
+        <button type="submit">
+          <i class="fa-regular fa-magnifying-glass"></i></a>
+        </button>
+      </form>
+    </div>
+    <div id="close2"></div>
+  </div>
+  <!-- End Search -->
+
+  <!-- Start Nav -->
+  <nav class="bg">
+    <div class="box f-s">
+      <a href="./index.html" class="logo">
+        <img src=".././media/logo.png" alt="">
+      </a>
+      <div class="links">
+        <div class="ls">
+          <ul class="mainLinks">
+            <li><a class="link" href="../index.html">الرئيسية</a></li>
+            <li><a class="link" href="./products.html">منتجاتنا</a></li>
+            <li><a class="link" href="./about.html">من نحن</a></li>
+            <li><a class="link active" href="./contact.html">تواصل معنا</a></li>
+            <div class="showInmoblie">
+              <i class="fa-regular fa-magnifying-glass" id="sbtn"></i>
+              <button class="cart">
+                <i class="fa-solid fa-shopping-cart"></i>
+                <span>1</span>
+              </button>
+            </div>
+          </ul>
+        </div>
+      </div>
+      <div class="last">
+        <div class="mLinks">
+          <i class="fa-regular fa-magnifying-glass" id="sbtn"></i>
+          <button class="cart">
+            <i class="fa-solid fa-shopping-cart"></i>
+            <span>1</span>
+          </button>
+          <div class="custom-select">
+            توصيل الى
+            <div class="selected-option">
+              <img src="../media/icons/jo.png" alt="Jordan Flag" />
+              <span>الأردن</span>
+            </div>
+            <ul class="options-list">
+              <li data-value="jordan">
+                <span>الأردن</span>
+                <img src="../media/icons/jo.png" alt="Jordan Flag" />
+              </li>
+              <li data-value="global">
+                <span>العالم</span>
+                <img src="../media/icons/global.png" alt="Egypt Flag" />
+              </li>
+            </ul>
+          </div>
+          <input type="hidden" name="country" id="countryInput" />
+
+        </div>
+        <button class="menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- End Nav -->
+
+
+
+  <!-- start home -->
+  <div class="home pageHeader">
+    <img src="../media/Rectangle 4456.png" alt="">
+  </div>
+  <!-- end home -->
+
+
+  <header class="bg title">
+    تواصل معنا
+  </header>
+  <div class="section" >
+    <div
+    class="box" data-aos="fade-up"
+    data-aos-duration="1000"
+      >
+      <div class="contact-container">
+        <div class="form-container" data-aos="fade-up">
+          <form action="">
+            <div class="d-flex flex-column justify-content-start gap-2 mb-3">
+              <label for="fullname">الأسم الكامل :</label>
+              <input type="text" placeholder="الأسم الكامل" name="fullname" id="fullname">
+            </div>
+            <div class="d-flex flex-column justify-content-start gap-2 mb-3">
+              <label for="email">البريد الالكتروني :</label>
+              <input type="text" placeholder="البريد الالكتروني" name="email" id="email">
+            </div>
+            <div class="d-flex flex-column justify-content-start gap-2 mb-3">
+              <label for="phone"> رقم الهاتف :</label>
+              <input type="text" placeholder="رقم الهاتف " name="phone" id="phone">
+            </div>
+            <div class="d-flex flex-column justify-content-start gap-2 mb-3">
+              <label for="message"> محتوى الرسالة :</label>
+              <textarea name="message" id="message" placeholder="الرسالة"></textarea>
+            </div>
+            <button class="btn" type="submit">
+              ارسال
+            </button>
+          </form>
+        </div>
+        <div class="contact-info">
+          <h4 class="fw-bold mb-3">معلومات التواصل :</h4>
+          <button 
+          class="btn mb-4 py-3" 
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
+            <a href="tel: ****">
+              <img src="../media/Group.png" alt="">
+              رقم الهاتف : 962785691800+
+            </a>
+          </button>
+          <button class="btn py-3"
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
+            <a href="mailto: *****">
+              <img src="../media/fi_3178158.png" alt="">
+              البريد الالكتروني : info@naqaa.com
+            </a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- start footer -->
+  <footer>
+    <div class="box footer">
+      <div class="footerLogo">
+        <img src="../media/logo.png" alt="">
+      </div>
+      <div class="footerLinkGroup">
+        <div class="linkGroup">
+          <h2>روابط مفيدة</h2>
+          <ul>
+            <li><a href="./ar-index.html"><img src="../media/icons/footerLink.png" alt=""> الرئيسية</a></li>
+            <li><a href="./about.html"><img src="../media/icons/footerLink.png" alt=""> الشركة</a></li>
+            <li><a href="./products.html"><img src="../media/icons/footerLink.png" alt=""> المنتجات</a></li>
+            <li><a href="./careers.html"><img src="../media/icons/footerLink.png" alt=""> الوظائف</a></li>
+            <li><a href="./contact-us.html"><img src="../media/icons/footerLink.png" alt=""> اتصل بنا</a></li>
+          </ul>
+        </div>
+        
+        <div class="linkGroup cont">
+          <h2>تواصل معنا</h2>
+          <ul>
+            <li><a href="##">
+                <img src="../media/icons/location.png" alt="">
+                Alkastal, Almushatta Village
+
+                P.O Box 213070, Postal Code 11121 Amman, Jordan.
+              </a></li>
+            <li><a href="tel:+92664711222"><img src="../media/icons/call.png" alt="">+926 6 4711 222</a></li>
+            <li><a href="tel:+96264711122"><img src="../media/icons/call.png" alt="">+962 6 4711 122</a></li>
+            <li><a href="mailto:info@backaldrin.com"><img src="../media/icons/mail.png" alt=""> info@backaldrin.com</a>
+            </li>
+          </ul>
+          <div class="media">
+            <a href="##"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="##"><i class="fa-brands fa-instagram"></i></a>
+            <a
+              href="https://www.linkedin.com/in/backaldrin-arab-jordan-423453183/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                class="fa-brands fa-linkedin-in"></i></a>
+            <a href="##"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end footer -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="../js/main.js"></script>
+  <script src="../js/swiper-bundle.min.js"></script>
+  <script src="../js/swiper.js"></script>
+  <script src="../js/search.js"></script>
+  <script src="../js/scroll.js"></script>
+  <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

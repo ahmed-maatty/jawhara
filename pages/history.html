@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../media/tap-icon.svg" type="image/x-icon" />
+  <link rel="shortcut icon" href="../media/tap-icon.svg" />
+  <link rel="apple-touch-icon" href="../media/tap-icon.svg" />
+  <meta http-equiv="Content-Security-Policy" content="frame-src https://www.google.com;">
+  <meta name="color-scheme" content="light only">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css">
+  <link rel="stylesheet" href="../js/swiper-bundle.min.css">
+  <link rel="stylesheet" href="../arscss/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>Backaldrin</title>
+</head>
+
+<body>
+  <!-- Start Search -->
+  <div class="s-n">
+    <div class="box">
+      <form class="search">
+        <input type="search" placeholder="Search...">
+        <button type="submit">
+          <i class="fa-regular fa-magnifying-glass"></i></a>
+        </button>
+      </form>
+    </div>
+    <div id="close2"></div>
+  </div>
+  <!-- End Search -->
+  <!-- Start Nav -->
+  <nav>
+    <div class="box f-s">
+      <a href="../ar-index.html" class="logo">
+        <img src="../media/logo.png" alt="">
+      </a>
+      <div class="links">
+        <div class="ls">
+          <ul class="mainLinks">
+            <li><a class="link" href="../ar-index.html">الرئيسية</a></li>
+            <li class="drop"><button class="link" href="##">الشركة</button>
+              <span id="closer"></span>
+              <div class="dropMenu">
+                <div class="box">
+                  <div class="ba-t">
+                    <h3>الشركة</h3>
+                  </div>
+                  <a href="./about.html">عن باكالدرين</a>
+                  <a href="./history.html">التاريخ</a>
+                  <a href="./locations.html">المواقع</a>
+                  <div class="ba-t">
+                    <img src="../media/backaldrin-text.svg" alt="">
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="drop"><button class="link">المنتجات</button>
+              <span id="closer"></span>
+              <div class="dropMenu">
+                <div class="box">
+                  <div class="ba-t">
+                    <h3>المنتجات</h3>
+                  </div>
+                  <a href="./products.html">الفئات</a>
+                  <a href="./brochures.html">الكتيبات</a>
+                  <a href="./recipes.html">الوصفات</a>
+                  <a href="./certificates.html">الشهادات</a>
+                  <div class="ba-t">
+                    <img src="../media/backaldrin-text.svg" alt="">
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="drop"><button class="link">المراحل الهامة</button>
+              <span id="closer"></span>
+              <div class="dropMenu">
+                <div class="box">
+                  <div class="ba-t">
+                    <h3>المراحل الهامة</h3>
+                  </div>
+                  <a href="./achievements.html">الإنجازات</a>
+                  <a href="./events.html">الفعاليات</a>
+                  <a href="./on-the-horizon.html">على الأفق</a>
+                  <div class="ba-t">
+                    <img src="../media/backaldrin-text.svg" alt="">
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="drop"><button class="link">الوظائف</button>
+              <span id="closer"></span>
+              <div class="dropMenu">
+                <div class="box">
+                  <div class="ba-t">
+                    <h3>الوظائف</h3>
+                  </div>
+                  <a href="./open-positions.html">الوظائف المتاحة</a>
+                  <a href="./apply.html">تقديم الطلب</a>
+                  <div class="ba-t">
+                    <img src="../media/backaldrin-text.svg" alt="">
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="drop"><button class="link">اتصل بنا</button>
+              <span id="closer"></span>
+              <div class="dropMenu">
+                <div class="box">
+                  <div class="ba-t">
+                    <h3>اتصل بنا</h3>
+                  </div>
+                  <a href="./reach-out.html">تواصل معنا</a>
+                  <a href="./support.html">الدعم والتغذية الراجعة</a>
+                  <div class="ba-t">
+                    <img src="../media/backaldrin-text.svg" alt="">
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="last">
+        <div class="mLinks">
+          <div class="drop drop2">
+            <span id="closer2"></span>
+            <a href="javascript:;" class="link">
+              <img class="lang" src="../media/icons/language.png" alt="">AR<img class="drop-icon"
+                src="../media/icons/arrow.png" alt=""></a>
+            <div class="dropMenu">
+              <a href="../index.html"><img class="lang" src="../media/icons/language.png" alt="">EN</a>
+            </div>
+          </div>
+          <i class="fa-solid fa-magnifying-glass" id="sbtn"></i>
+        </div>
+        <button class="menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+  <!-- End Nav -->
+
+  <!-- start home -->
+  <div class="home header">
+    <div class="swiper homeSwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="../media/about.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="home-swiper-pagination"></div>
+  </div>
+  <!-- end home -->
+
+
+  <div class="container">
+    <!-- بداية قسم من نحن -->
+    <div class="section">
+      <div class="box aboutPage">
+        <div class="aText" data-aos-duration="600" data-aos="zoom-out">
+          <h1>التاريخ</h1>
+          <p>
+            تأسست backaldrin الأردن في عام 2006، وكانت أول منشأة إنتاج دولية يتم إنشاؤها خارج النمسا من قبل backaldrin International. انطلاقًا من عمل عائلي في صناعة الخبز في النمسا، والذي وصل الآن إلى الجيل الثالث، تطورت backaldrin الأردن لتصبح مزودًا شاملًا للحلول الخبزية. بدأت بإنتاج خلطات الخبز والكعك، ثم وسّعت نطاق منتجاتها ليصل إلى أكثر من 700 منتج، وتخدم أكثر من 42 دولة في منطقة الشرق الأوسط وشمال إفريقيا وما بعدها. من خلال التزامها بالجودة والابتكار ونجاح العملاء، أصبحت backaldrin الأردن شريكًا موثوقًا للخبازين، مما ساهم بشكل كبير في صناعة الخبز العالمية.
+          </p>
+        </div>
+  
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <div class="timeline-text" data-aos-duration="600" data-aos="fade-right">
+                <h2>ولادة باكالدرين</h2>
+                <p>في فيينا، تحول حلم عائلة Augendopler في إنتاج مكونات الخبز الخاصة بهم إلى حقيقة.</p>
+              </div>
+              <div class="timeline-image" data-aos-duration="600" data-aos="fade-left">
+                <img src="../media/about.jpg" alt="">
+              </div>
+            </div>
+          </div>
+  
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <div class="timeline-text" data-aos-duration="600" data-aos="fade-left">
+                <h2>الانتقال إلى أستن</h2>
+                <p>تم افتتاح موقع العمل في أستن. وفي نفس العام، تم تأسيس backaldrin Vertriebs.ges.m.b.H في ميونيخ.</p>
+              </div>
+              <div class="timeline-image" data-aos-duration="600" data-aos="fade-right">
+                <img src="../media/about.jpg" alt="">
+              </div>
+            </div>
+          </div>
+  
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <div class="timeline-text" data-aos-duration="600" data-aos="fade-right">
+                <h2>ولادة العلامة التجارية Kornspitz®</h2>
+                <p>قدمت backaldrin منتج Kornspitz® الذي أصبح علامة مميزة بفضل نجاحه كخبز رول.</p>
+              </div>
+              <div class="timeline-image" data-aos-duration="600" data-aos="fade-left">
+                <img src="../media/about.jpg" alt="">
+              </div>
+            </div>
+          </div>
+  
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <div class="timeline-text" data-aos-duration="600" data-aos="fade-left">
+                <h2>التوسع في أوروبا الشرقية</h2>
+                <p>بعد عام من سقوط جدار برلين، توسعت backaldrin إلى تشيكوسلوفاكيا والمجر، ثم إلى بلغاريا، إيطاليا، الأردن، بولندا، روسيا، أوكرانيا، وروسيا البيضاء.</p>
+              </div>
+              <div class="timeline-image" data-aos-duration="600" data-aos="fade-right">
+                <img src="../media/about.jpg" alt="">
+              </div>
+            </div>
+          </div>
+  
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <div class="timeline-text" data-aos-duration="600" data-aos="fade-right">
+                <h2>بيت الخبز</h2>
+                <p>تم إنشاء "بيت الخبز" في موقع أستن، ليصبح مركزًا للتميز والتواصل للخبازين حول العالم.</p>
+              </div>
+              <div class="timeline-image" data-aos-duration="600" data-aos="fade-left">
+                <img src="../media/about.jpg" alt="">
+              </div>
+            </div>
+          </div>
+  
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <div class="timeline-text" data-aos-duration="600" data-aos="fade-left">
+                <h2>افتتاح الأردن لأسواق جديدة</h2>
+                <p>افتتاح موقع إنتاج في عمان، الأردن، مما أتاح الوصول إلى العالم العربي وأفريقيا.</p>
+              </div>
+              <div class="timeline-image" data-aos-duration="600" data-aos="fade-right">
+                <img src="../media/about.jpg" alt="">
+              </div>
+            </div>
+          </div>
+  
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <div class="timeline-text" data-aos-duration="600" data-aos="fade-right">
+                <h2>التركيز على الابتكار</h2>
+                <p>افتتاح مركز جديد للابتكار والأبحاث في أستن، مما أتاح خلق حوالي 50 وظيفة في مجال الخبز والمختبرات والأبحاث.</p>
+              </div>
+              <div class="timeline-image" data-aos-duration="600" data-aos="fade-left">
+                <img src="../media/about.jpg" alt="">
+              </div>
+            </div>
+          </div>
+  
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <div class="timeline-text" data-aos-duration="600" data-aos="fade-left">
+                <h2>النمو العالمي</h2>
+                <p>افتتاح مواقع جديدة، بما في ذلك مصنع إنتاج في تولكا بالمكسيك، والاستحواذ على Austrian Premix في كيب تاون، مع التوسع لاحقًا بالقرب من موسكو في عام 2017.</p>
+              </div>
+              <div class="timeline-image" data-aos-duration="600" data-aos="fade-right">
+                <img src="../media/about.jpg" alt="">
+              </div>
+            </div>
+          </div>
+  
+          <div class="timeline-item"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+  <!-- End about -->
+
+  <!-- start footer -->
+  <footer>
+    <div class="box footer">
+      <div class="footerLogo">
+        <img src="../media/logo.png" alt="">
+      </div>
+      <div class="footerLinkGroup">
+        <div class="linkGroup">
+          <h2>روابط مفيدة</h2>
+          <ul>
+            <li><a href="./ar-index.html"><img src="../media/icons/footerLink.png" alt=""> الرئيسية</a></li>
+            <li><a href="./about.html"><img src="../media/icons/footerLink.png" alt=""> الشركة</a></li>
+            <li><a href="./products.html"><img src="../media/icons/footerLink.png" alt=""> المنتجات</a></li>
+            <li><a href="./careers.html"><img src="../media/icons/footerLink.png" alt=""> الوظائف</a></li>
+            <li><a href="./contact-us.html"><img src="../media/icons/footerLink.png" alt=""> اتصل بنا</a></li>
+          </ul>
+        </div>
+        
+        <div class="linkGroup cont">
+          <h2>تواصل معنا</h2>
+          <ul>
+            <li><a href="##">
+                <img src="../media/icons/location.png" alt="">
+                Alkastal, Almushatta Village
+
+                P.O Box 213070, Postal Code 11121 Amman, Jordan.
+              </a></li>
+            <li><a href="tel:+92664711222"><img src="../media/icons/call.png" alt="">+926 6 4711 222</a></li>
+            <li><a href="tel:+96264711122"><img src="../media/icons/call.png" alt="">+962 6 4711 122</a></li>
+            <li><a href="mailto:info@backaldrin.com"><img src="../media/icons/mail.png" alt=""> info@backaldrin.com</a>
+            </li>
+          </ul>
+          <div class="media">
+            <a href="##"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="##"><i class="fa-brands fa-instagram"></i></a>
+            <a
+              href="https://www.linkedin.com/in/backaldrin-arab-jordan-423453183/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                class="fa-brands fa-linkedin-in"></i></a>
+            <a href="##"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end footer -->
+
+  <script src="../js/main.js"></script>
+  <script src="../js/swiper-bundle.min.js"></script>
+  <script src="../js/swiper.js"></script>
+  <script src="../js/search.js"></script>
+  <script src="../js/scroll.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../media/tap-icon.svg" type="image/x-icon" />
+  <link rel="shortcut icon" href="../media/tap-icon.svg" />
+  <link rel="apple-touch-icon" href="../media/tap-icon.svg" />
+  <meta http-equiv="Content-Security-Policy" content="frame-src https://www.google.com;">
+  <meta name="color-scheme" content="light only">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css">
+  <link rel="stylesheet" href="../js/swiper-bundle.min.css">
+  <link rel="stylesheet" href="../scss/bootstrap.min.css">
+  <link rel="stylesheet" href="../scss/style.css">
+  <title>Backaldrin</title>
+</head>
+
+<body>
+  <!-- Start Search -->
+  <div class="s-n">
+    <div class="box">
+      <form class="search">
+        <input type="search" placeholder="البحث...">
+        <button type="submit">
+          <i class="fa-regular fa-magnifying-glass"></i></a>
+        </button>
+      </form>
+    </div>
+    <div id="close2"></div>
+  </div>
+  <!-- End Search -->
+
+  <!-- Start Nav -->
+  <nav class="bg">
+    <div class="box f-s">
+      <a href="./index.html" class="logo">
+        <img src=".././media/logo.png" alt="">
+      </a>
+      <div class="links">
+        <div class="ls">
+          <ul class="mainLinks">
+            <li><a class="link" href="../index.html">الرئيسية</a></li>
+            <li><a class="link active" href="./products.html">منتجاتنا</a></li>
+            <li><a class="link" href="./about.html">من نحن</a></li>
+            <li><a class="link" href="./contact.html">تواصل معنا</a></li>
+            <div class="showInmoblie">
+              <i class="fa-regular fa-magnifying-glass" id="sbtn"></i>
+              <button class="cart">
+                <i class="fa-solid fa-shopping-cart"></i>
+                <span>1</span>
+              </button>
+            </div>
+          </ul>
+        </div>
+      </div>
+      <div class="last">
+        <div class="mLinks">
+          <i class="fa-regular fa-magnifying-glass" id="sbtn"></i>
+          <button class="cart">
+            <i class="fa-solid fa-shopping-cart"></i>
+            <span>1</span>
+          </button>
+          <div class="custom-select">
+            توصيل الى
+            <div class="selected-option">
+              <img src="../media/icons/jo.png" alt="Jordan Flag" />
+              <span>الأردن</span>
+            </div>
+            <ul class="options-list">
+              <li data-value="jordan">
+                <span>الأردن</span>
+                <img src="./media/icons/jo.png" alt="Jordan Flag" />
+              </li>
+              <li data-value="global">
+                <span>العالم</span>
+                <img src="./media/icons/global.png" alt="Egypt Flag" />
+              </li>
+            </ul>
+          </div>
+          <input type="hidden" name="country" id="countryInput" />
+
+        </div>
+        <button class="menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- End Nav -->
+
+
+  <!-- start home -->
+  <div class="home pageHeader">
+    <img src="../media/Rectangle 4456.png" alt="">
+  </div>
+  <!-- end home -->
+
+
+  <header class="bg title">
+    منتجاتنا
+  </header>
+  <div class="container">
+    <!-- Start Products -->
+    <div class="section">
+      <div class="d-flex gap-4 w-100 product-section-container">
+        <div class="classification-container" data-aos="flip-right">
+          <div class="classification">
+            <h4 class="mb-3">التصنيف :</h4>
+            <div class="checkBoxes-container">
+              <div class="d-flex align-items-center gap-2 mb-2">
+                <input type="checkbox" name="" id=""> <p>حلويات</p>
+              </div>
+              <div class="d-flex align-items-center gap-2 mb-2">
+                <input type="checkbox" name="" id=""> <p>طعام</p>
+              </div>
+              <div class="d-flex align-items-center gap-2 mb-2">
+                <input type="checkbox" name="" id=""> <p>هدايا</p>
+              </div>
+            </div>
+            <h4 class="my-3">نطاق الأسعار :</h4>
+            
+              <div class="range-slider">
+                <div class="range">
+                  <input
+                    type="range"
+                    class="min-input"
+                    min="1"
+                    max="99"
+                    value="1"
+                  >
+                  <input
+                    type="range"
+                    class="max-input"
+                    min="100"
+                    max="200"
+                    value="200"
+                  >
+                  <div class="slider">
+                    <div class="progress"></div>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-between w-100">
+                  <span class="d-flex align-items-center justify-content-center" style="color: #02806b;">
+                    <input
+                      type="number"
+                      name="min-price"
+                      class="min-price lowestPrice"
+                      min="1$"
+                      max="99"
+                      value="1"
+                      >
+                    $
+                  </span>
+                  <span  class="d-flex align-items-center jcc" style="color: #02806b; font-size: 16px;">
+                    <input
+                    type="number"
+                    class="max-price heighestPrice"
+                    min="100"
+                    max="200"
+                    value="200"
+                    >
+                    $
+                  </span>
+                </div>
+                
+              </div>
+          </div>
+          <button class="btn mt-3 w-100">فــلــتــرة المنتجات</button>
+        </div>
+
+        <div class="box" data-aos="zoom-in">
+
+          <div class="our-product-searchBar d-flex align-items-center justify-content-between gap-3 w-100 mb-4">
+            <div class="search-bar d-flex align-items-center justify-content-between">
+              <input type="text" placeholder="ابحث عن اسم المنتج ...">
+              <i class="fa-regular fa-magnifying-glass" id="sbtn"></i>
+            </div>
+            <button class="btn">البحث عن المنتج</button>
+          </div>
+
+          <div class="productsContainer products-page">
+
+            <div class="product-cat product-card">
+              <a href="./product-view.html" class="product-image">
+                <img class="img" src="./media/prod.png" alt="">
+              </a>
+              <div class="aText aText2">
+                <h3>نص تجريبي نص تجريبي</h3>
+                <div class="control control1">
+                  <button class="btn">
+                    12.00 دأ
+                  </button>
+                  <select>
+                    <option value=" ">اختيار الحجم</option>
+                  </select>
+                  <i class="fa-solid fa-play" tabindex="0"></i>
+                </div>
+                <div class="controls2">
+                  <div class="control">
+                    <input type="number" value="1" placeholder="العدد" class="quantity" />
+                    <i class="fa-solid fa-play add" tabindex="0"></i>
+                    <i class="fa-solid fa-play minus" tabindex="0"></i>
+                  </div>
+                  <button class="btn">
+                    اضافة الى السلة
+                    <i class="fa-solid fa-shopping-cart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-cat product-card">
+              <a href="./product-view.html" class="product-image">
+                <img class="img" src="./media/prod.png" alt="">
+              </a>
+              <div class="aText aText2">
+                <h3>نص تجريبي نص تجريبي</h3>
+                <div class="control control1">
+                  <button class="btn">
+                    12.00 دأ
+                  </button>
+                  <select>
+                    <option value=" ">اختيار الحجم</option>
+                  </select>
+                  <i class="fa-solid fa-play" tabindex="0"></i>
+                </div>
+                <div class="controls2">
+                  <div class="control">
+                    <input type="number" value="1" placeholder="العدد" class="quantity" />
+                    <i class="fa-solid fa-play add" tabindex="0"></i>
+                    <i class="fa-solid fa-play minus" tabindex="0"></i>
+                  </div>
+                  <button class="btn">
+                    اضافة الى السلة
+                    <i class="fa-solid fa-shopping-cart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-cat product-card">
+              <a href="./product-view.html" class="product-image">
+                <img class="img" src="./media/prod.png" alt="">
+              </a>
+              <div class="aText aText2">
+                <h3>نص تجريبي نص تجريبي</h3>
+                <div class="control control1">
+                  <button class="btn">
+                    12.00 دأ
+                  </button>
+                  <select>
+                    <option value=" ">اختيار الحجم</option>
+                  </select>
+                  <i class="fa-solid fa-play" tabindex="0"></i>
+                </div>
+                <div class="controls2">
+                  <div class="control">
+                    <input type="number" value="1" placeholder="العدد" class="quantity" />
+                    <i class="fa-solid fa-play add" tabindex="0"></i>
+                    <i class="fa-solid fa-play minus" tabindex="0"></i>
+                  </div>
+                  <button class="btn">
+                    اضافة الى السلة
+                    <i class="fa-solid fa-shopping-cart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-cat product-card">
+              <a href="./product-view.html" class="product-image">
+                <img class="img" src="./media/prod.png" alt="">
+              </a>
+              <div class="aText aText2">
+                <h3>نص تجريبي نص تجريبي</h3>
+                <div class="control control1">
+                  <button class="btn">
+                    12.00 دأ
+                  </button>
+                  <select>
+                    <option value=" ">اختيار الحجم</option>
+                  </select>
+                  <i class="fa-solid fa-play" tabindex="0"></i>
+                </div>
+                <div class="controls2">
+                  <div class="control">
+                    <input type="number" value="1" placeholder="العدد" class="quantity" />
+                    <i class="fa-solid fa-play add" tabindex="0"></i>
+                    <i class="fa-solid fa-play minus" tabindex="0"></i>
+                  </div>
+                  <button class="btn">
+                    اضافة الى السلة
+                    <i class="fa-solid fa-shopping-cart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-cat product-card">
+              <a href="./product-view.html" class="product-image">
+                <img class="img" src="./media/prod.png" alt="">
+              </a>
+              <div class="aText aText2">
+                <h3>نص تجريبي نص تجريبي</h3>
+                <div class="control control1">
+                  <button class="btn">
+                    12.00 دأ
+                  </button>
+                  <select>
+                    <option value=" ">اختيار الحجم</option>
+                  </select>
+                  <i class="fa-solid fa-play" tabindex="0"></i>
+                </div>
+                <div class="controls2">
+                  <div class="control">
+                    <input type="number" value="1" placeholder="العدد" class="quantity" />
+                    <i class="fa-solid fa-play add" tabindex="0"></i>
+                    <i class="fa-solid fa-play minus" tabindex="0"></i>
+                  </div>
+                  <button class="btn">
+                    اضافة الى السلة
+                    <i class="fa-solid fa-shopping-cart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-cat product-card">
+              <a href="./product-view.html" class="product-image">
+                <img class="img" src="./media/prod.png" alt="">
+              </a>
+              <div class="aText aText2">
+                <h3>نص تجريبي نص تجريبي</h3>
+                <div class="control control1">
+                  <button class="btn">
+                    12.00 دأ
+                  </button>
+                  <select>
+                    <option value=" ">اختيار الحجم</option>
+                  </select>
+                  <i class="fa-solid fa-play" tabindex="0"></i>
+                </div>
+                <div class="controls2">
+                  <div class="control">
+                    <input type="number" value="1" placeholder="العدد" class="quantity" />
+                    <i class="fa-solid fa-play add" tabindex="0"></i>
+                    <i class="fa-solid fa-play minus" tabindex="0"></i>
+                  </div>
+                  <button class="btn">
+                    اضافة الى السلة
+                    <i class="fa-solid fa-shopping-cart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-cat product-card">
+              <a href="./product-view.html" class="product-image">
+                <img class="img" src="./media/prod.png" alt="">
+              </a>
+              <div class="aText aText2">
+                <h3>نص تجريبي نص تجريبي</h3>
+                <div class="control control1">
+                  <button class="btn">
+                    12.00 دأ
+                  </button>
+                  <select>
+                    <option value=" ">اختيار الحجم</option>
+                  </select>
+                  <i class="fa-solid fa-play" tabindex="0"></i>
+                </div>
+                <div class="controls2">
+                  <div class="control">
+                    <input type="number" value="1" placeholder="العدد" class="quantity" />
+                    <i class="fa-solid fa-play add" tabindex="0"></i>
+                    <i class="fa-solid fa-play minus" tabindex="0"></i>
+                  </div>
+                  <button class="btn">
+                    اضافة الى السلة
+                    <i class="fa-solid fa-shopping-cart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-cat product-card">
+              <a href="./product-view.html" class="product-image">
+                <img class="img" src="./media/prod.png" alt="">
+              </a>
+              <div class="aText aText2">
+                <h3>نص تجريبي نص تجريبي</h3>
+                <div class="control control1">
+                  <button class="btn">
+                    12.00 دأ
+                  </button>
+                  <select>
+                    <option value=" ">اختيار الحجم</option>
+                  </select>
+                  <i class="fa-solid fa-play" tabindex="0"></i>
+                </div>
+                <div class="controls2">
+                  <div class="control">
+                    <input type="number" value="1" placeholder="العدد" class="quantity" />
+                    <i class="fa-solid fa-play add" tabindex="0"></i>
+                    <i class="fa-solid fa-play minus" tabindex="0"></i>
+                  </div>
+                  <button class="btn">
+                    اضافة الى السلة
+                    <i class="fa-solid fa-shopping-cart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-cat product-card">
+              <a href="./product-view.html" class="product-image">
+                <img class="img" src="./media/prod.png" alt="">
+              </a>
+              <div class="aText aText2">
+                <h3>نص تجريبي نص تجريبي</h3>
+                <div class="control control1">
+                  <button class="btn">
+                    12.00 دأ
+                  </button>
+                  <select>
+                    <option value=" ">اختيار الحجم</option>
+                  </select>
+                  <i class="fa-solid fa-play" tabindex="0"></i>
+                </div>
+                <div class="controls2">
+                  <div class="control">
+                    <input type="number" value="1" placeholder="العدد" class="quantity" />
+                    <i class="fa-solid fa-play add" tabindex="0"></i>
+                    <i class="fa-solid fa-play minus" tabindex="0"></i>
+                  </div>
+                  <button class="btn">
+                    اضافة الى السلة
+                    <i class="fa-solid fa-shopping-cart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="product-pagination mt-4 d-flex align-items-center justify-content-between">
+            <div class="products-page-number d-flex align-items-center justify-content-center">
+              <button class="mx-3" id="pagination-prev-page"> <img src="../media/right.png" alt="" style="object-fit: contain;"> </button>
+                <input class="page-number active" type="text" value="1" readonly>
+                <input class="page-number" type="text" value="2" readonly>
+                <input class="page-number" type="text" value="3" readonly>
+                <input class="page-number" type="text" value="..." readonly>
+                <input class="page-number" type="text" value="12" readonly>
+              <button class="mx-3" id="pagination-next-page"> <img src="../media/left.png" alt="" style="object-fit: contain;"> </button>
+            </div>
+            <div class="pagination-data d-flex align-items-center gap-2">
+              عرض <input type="text" value="1" readonly> - <input type="text" value="8" readonly> من <input type="text" value="30" readonly>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- End Products -->
+
+  </div>
+
+
+
+  <!-- start footer -->
+  <footer>
+    <div class="box footer">
+      <div class="footerLogo">
+        <img src="../media/logo.png" alt="">
+      </div>
+      <div class="footerLinkGroup">
+        <div class="linkGroup">
+          <h2>روابط مفيدة</h2>
+          <ul>
+            <li><a href="./ar-index.html"><img src="../media/icons/footerLink.png" alt=""> الرئيسية</a></li>
+            <li><a href="./about.html"><img src="../media/icons/footerLink.png" alt=""> الشركة</a></li>
+            <li><a href="./products.html"><img src="../media/icons/footerLink.png" alt=""> المنتجات</a></li>
+            <li><a href="./careers.html"><img src="../media/icons/footerLink.png" alt=""> الوظائف</a></li>
+            <li><a href="./contact-us.html"><img src="../media/icons/footerLink.png" alt=""> اتصل بنا</a></li>
+          </ul>
+        </div>
+        
+        <div class="linkGroup cont">
+          <h2>تواصل معنا</h2>
+          <ul>
+            <li><a href="##">
+                <img src="../media/icons/location.png" alt="">
+                Alkastal, Almushatta Village
+
+                P.O Box 213070, Postal Code 11121 Amman, Jordan.
+              </a></li>
+            <li><a href="tel:+92664711222"><img src="../media/icons/call.png" alt="">+926 6 4711 222</a></li>
+            <li><a href="tel:+96264711122"><img src="../media/icons/call.png" alt="">+962 6 4711 122</a></li>
+            <li><a href="mailto:info@backaldrin.com"><img src="../media/icons/mail.png" alt=""> info@backaldrin.com</a>
+            </li>
+          </ul>
+          <div class="media">
+            <a href="##"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="##"><i class="fa-brands fa-instagram"></i></a>
+            <a
+              href="https://www.linkedin.com/in/backaldrin-arab-jordan-423453183/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                class="fa-brands fa-linkedin-in"></i></a>
+            <a href="##"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end footer -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="../js/main.js"></script>
+  <script src="../js/swiper-bundle.min.js"></script>
+  <script src="../js/swiper.js"></script>
+  <script src="../js/search.js"></script>
+  <script src="../js/scroll.js"></script>
+  <script src="../js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

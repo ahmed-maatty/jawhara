@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="https://jawhart-alsharq.netlify.app/media/tap-icon.svg" type="image/x-icon" />
+  <link rel="shortcut icon" href="https://jawhart-alsharq.netlify.app/media/tap-icon.svg" />
+  <link rel="apple-touch-icon" href="https://jawhart-alsharq.netlify.app/media/tap-icon.svg" />
+  <meta http-equiv="Content-Security-Policy" content="frame-src https://www.google.com;">
+  <meta name="color-scheme" content="light only">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css">
+  <link rel="stylesheet" href="./js/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./scss/bootstrap.min.css">
+  <link rel="stylesheet" href="./scss/style.css">
+  <title>Jawhart Alsharq | جوهرة الشرق</title>
+</head>
+
+<body>
+  <!-- Start Search -->
+  <div class="s-n">
+    <div class="box">
+      <form class="search">
+        <input type="search" placeholder="البحث...">
+        <button type="submit">
+          <i class="fa-regular fa-magnifying-glass"></i></a>
+        </button>
+      </form>
+    </div>
+    <div id="close2"></div>
+  </div>
+  <!-- End Search -->
+
+  <!-- Start Nav -->
+  <nav class="bg">
+    <div class="box f-s">
+      <a href="./index.html" class="logo">
+        <img src="./media/logo.png" alt="">
+      </a>
+      <div class="links">
+        <div class="ls">
+          <ul class="mainLinks">
+            <li><a class="link active" href="./index.html">الرئيسية</a></li>
+            <li><a class="link" href="./pages/products.html">منتجاتنا</a></li>
+            <li><a class="link" href="./pages/about.html">من نحن</a></li>
+            <li><a class="link" href="./pages/contact.html">تواصل معنا</a></li>
+            <div class="showInmoblie">
+              <i class="fa-regular fa-magnifying-glass" id="sbtn"></i>
+              <button class="cart">
+                <i class="fa-solid fa-shopping-cart"></i>
+                <span>1</span>
+              </button>
+            </div>
+          </ul>
+        </div>
+      </div>
+      <div class="last">
+        <div class="mLinks">
+          <i class="fa-regular fa-magnifying-glass" id="sbtn"></i>
+          <button class="cart">
+            <i class="fa-solid fa-shopping-cart"></i>
+            <span>1</span>
+          </button>
+          <div class="custom-select">
+            توصيل الى
+            <div class="selected-option">
+              <img src="./media/icons/jo.png" alt="Jordan Flag" />
+              <span>الأردن</span>
+            </div>
+            <ul class="options-list">
+              <li data-value="jordan">
+                <span>الأردن</span>
+                <img src="./media/icons/jo.png" alt="Jordan Flag" />
+              </li>
+              <li data-value="global">
+                <span>العالم</span>
+                <img src="./media/icons/global.png" alt="Egypt Flag" />
+              </li>
+            </ul>
+          </div>
+          <input type="hidden" name="country" id="countryInput" />
+
+        </div>
+        <button class="menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- End Nav -->
+
+
+  <!-- start home -->
+  <div class="home">
+    <div class="swiper homeSwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./media/slide.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="./media/slide.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="./media/slide.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="./media/slide.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="./media/slide.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="./media/slide.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="home-swiper-navigation">
+      <button class="next">
+        <i class="fa-regular fa-long-arrow-right"></i>
+      </button>
+      <button class="prev">
+        <i class="fa-regular fa-long-arrow-left"></i>
+      </button>
+
+    </div>
+  </div>
+  <!-- end home -->
+
+
+  <!-- Start products cat -->
+  <header class="bg title">
+    التصنيفات
+  </header>
+  <div class="section" data-aos="fade-up" data-aos-duration="1000">
+    <div class="box">
+      <div class="swiper produtsCats" id="ps">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="product-cat">
+              <div class="product-image">
+                <img class="img" src="./media/cat.png" alt="">
+              </div>
+              <div class="aText">
+                <h3>نص تجريبي نص تجريبي</h3>
+                <a href="./pages/category.html" class="btn">
+                  <img src="./media/icons/label.png" alt="">
+                  عرض المنتجات
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-cat">
+              <div class="product-image">
+                <img class="img" src="./media/cat.png" alt="">
+              </div>
+              <div class="aText">
+                <h3>نص تجريبي نص تجريبي</h3>
+                <a href="./pages/category.html" class="btn">
+                  <img src="./media/icons/label.png" alt="">
+                  عرض المنتجات
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-cat">
+              <div class="product-image">
+                <img class="img" src="./media/cat.png" alt="">
+              </div>
+              <div class="aText">
+                <h3>نص تجريبي نص تجريبي</h3>
+                <a href="./pages/category.html" class="btn">
+                  <img src="./media/icons/label.png" alt="">
+                  عرض المنتجات
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-cat">
+              <div class="product-image">
+                <img class="img" src="./media/cat.png" alt="">
+              </div>
+              <div class="aText">
+                <h3>نص تجريبي نص تجريبي</h3>
+                <a href="./pages/category.html" class="btn">
+                  <img src="./media/icons/label.png" alt="">
+                  عرض المنتجات
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-cat">
+              <div class="product-image">
+                <img class="img" src="./media/cat.png" alt="">
+              </div>
+              <div class="aText">
+                <h3>نص تجريبي نص تجريبي</h3>
+                <a href="./pages/category.html" class="btn">
+                  <img src="./media/icons/label.png" alt="">
+                  عرض المنتجات
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end products cat -->
+
+  <!-- start products  -->
+  <header class="bg title">
+    الأكثر مبيعاً
+  </header>
+  <div class="section pb-0" data-aos="fade-down" data-aos-duration="1000">
+    <div class="box">
+      <div class="swiper produtsCats" id="ps1">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="product-cat product-card">
+              <a href="./pages/product.html" class="product-image">
+                <img class="img" src="./media/prod.png" alt="">
+              </a>
+              <div class="aText aText2">
+                <h3>نص تجريبي نص تجريبي</h3>
+                <div class="control control1">
+                  <button class="btn">
+                    12.00 دأ
+                  </button>
+                  <select>
+                    <option value=" ">اختيار الحجم</option>
+                  </select>
+                  <i class="fa-solid fa-play" tabindex="0"></i>
+                </div>
+                <div class="controls2">
+                  <div class="control">
+                    <input type="number" value="1" placeholder="العدد" class="quantity" />
+                    <i class="fa-solid fa-play add" tabindex="0"></i>
+                    <i class="fa-solid fa-play minus" tabindex="0"></i>
+                  </div>
+                  <button class="btn">
+                    اضافة الى السلة
+                    <i class="fa-solid fa-shopping-cart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+                <div class="product-cat product-card">
+              <a href="./pages/product.html" class="product-image">
+                <img class="img" src="./media/prod.png" alt="">
+              </a>
+              <div class="aText aText2">
+                <h3>نص تجريبي نص تجريبي</h3>
+                <div class="control control1">
+                  <button class="btn">
+                    12.00 دأ
+                  </button>
+                  <select>
+                    <option value=" ">اختيار الحجم</option>
+                  </select>
+                  <i class="fa-solid fa-play" tabindex="0"></i>
+                </div>
+                <div class="controls2">
+                  <div class="control">
+                    <input type="number" value="1" placeholder="العدد" class="quantity" />
+                    <i class="fa-solid fa-play add" tabindex="0"></i>
+                    <i class="fa-solid fa-play minus" tabindex="0"></i>
+                  </div>
+                  <button class="btn">
+                    اضافة الى السلة
+                    <i class="fa-solid fa-shopping-cart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+                <div class="product-cat product-card">
+              <a href="./pages/product.html" class="product-image">
+                <img class="img" src="./media/prod.png" alt="">
+              </a>
+              <div class="aText aText2">
+                <h3>نص تجريبي نص تجريبي</h3>
+                <div class="control control1">
+                  <button class="btn">
+                    12.00 دأ
+                  </button>
+                  <select>
+                    <option value=" ">اختيار الحجم</option>
+                  </select>
+                  <i class="fa-solid fa-play" tabindex="0"></i>
+                </div>
+                <div class="controls2">
+                  <div class="control">
+                    <input type="number" value="1" placeholder="العدد" class="quantity" />
+                    <i class="fa-solid fa-play add" tabindex="0"></i>
+                    <i class="fa-solid fa-play minus" tabindex="0"></i>
+                  </div>
+                  <button class="btn">
+                    اضافة الى السلة
+                    <i class="fa-solid fa-shopping-cart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+                <div class="product-cat product-card">
+              <a href="./pages/product.html" class="product-image">
+                <img class="img" src="./media/prod.png" alt="">
+              </a>
+              <div class="aText aText2">
+                <h3>نص تجريبي نص تجريبي</h3>
+                <div class="control control1">
+                  <button class="btn">
+                    12.00 دأ
+                  </button>
+                  <select>
+                    <option value=" ">اختيار الحجم</option>
+                  </select>
+                  <i class="fa-solid fa-play" tabindex="0"></i>
+                </div>
+                <div class="controls2">
+                  <div class="control">
+                    <input type="number" value="1" placeholder="العدد" class="quantity" />
+                    <i class="fa-solid fa-play add" tabindex="0"></i>
+                    <i class="fa-solid fa-play minus" tabindex="0"></i>
+                  </div>
+                  <button class="btn">
+                    اضافة الى السلة
+                    <i class="fa-solid fa-shopping-cart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+                <div class="product-cat product-card">
+              <a href="./pages/product.html" class="product-image">
+                <img class="img" src="./media/prod.png" alt="">
+              </a>
+              <div class="aText aText2">
+                <h3>نص تجريبي نص تجريبي</h3>
+                <div class="control control1">
+                  <button class="btn">
+                    12.00 دأ
+                  </button>
+                  <select>
+                    <option value=" ">اختيار الحجم</option>
+                  </select>
+                  <i class="fa-solid fa-play" tabindex="0"></i>
+                </div>
+                <div class="controls2">
+                  <div class="control">
+                    <input type="number" value="1" placeholder="العدد" class="quantity" />
+                    <i class="fa-solid fa-play add" tabindex="0"></i>
+                    <i class="fa-solid fa-play minus" tabindex="0"></i>
+                  </div>
+                  <button class="btn">
+                    اضافة الى السلة
+                    <i class="fa-solid fa-shopping-cart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <img
+        class="MostSaling-banner"
+        src="./media/Bannar.png" 
+        alt="Bannnar">
+    </div>
+  </div>
+  <!-- end products  -->
+
+  <!-- start products  -->
+  <header class="bg title">
+    التصنيف الأول
+  </header>
+  <div class="section" data-aos="fade-right" data-aos-duration="1000">
+    <div class="box">
+      <div class="swiper produtsCats" id="ps2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+                <div class="product-cat product-card">
+              <a href="./pages/product.html" class="product-image">
+                <img class="img" src="./media/prod.png" alt="">
+              </a>
+              <div class="aText aText2">
+                <h3>نص تجريبي نص تجريبي</h3>
+                <div class="control control1">
+                  <button class="btn">
+                    12.00 دأ
+                  </button>
+                  <select>
+                    <option value=" ">اختيار الحجم</option>
+                  </select>
+                  <i class="fa-solid fa-play" tabindex="0"></i>
+                </div>
+                <div class="controls2">
+                  <div class="control">
+                    <input type="number" value="1" placeholder="العدد" class="quantity" />
+                    <i class="fa-solid fa-play add" tabindex="0"></i>
+                    <i class="fa-solid fa-play minus" tabindex="0"></i>
+                  </div>
+                  <button class="btn">
+                    اضافة الى السلة
+                    <i class="fa-solid fa-shopping-cart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+                <div class="product-cat product-card">
+              <a href="./pages/product.html" class="product-image">
+                <img class="img" src="./media/prod.png" alt="">
+              </a>
+              <div class="aText aText2">
+                <h3>نص تجريبي نص تجريبي</h3>
+                <div class="control control1">
+                  <button class="btn">
+                    12.00 دأ
+                  </button>
+                  <select>
+                    <option value=" ">اختيار الحجم</option>
+                  </select>
+                  <i class="fa-solid fa-play" tabindex="0"></i>
+                </div>
+                <div class="controls2">
+                  <div class="control">
+                    <input type="number" value="1" placeholder="العدد" class="quantity" />
+                    <i class="fa-solid fa-play add" tabindex="0"></i>
+                    <i class="fa-solid fa-play minus" tabindex="0"></i>
+                  </div>
+                  <button class="btn">
+                    اضافة الى السلة
+                    <i class="fa-solid fa-shopping-cart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+                <div class="product-cat product-card">
+              <a href="./pages/product.html" class="product-image">
+                <img class="img" src="./media/prod.png" alt="">
+              </a>
+              <div class="aText aText2">
+                <h3>نص تجريبي نص تجريبي</h3>
+                <div class="control control1">
+                  <button class="btn">
+                    12.00 دأ
+                  </button>
+                  <select>
+                    <option value=" ">اختيار الحجم</option>
+                  </select>
+                  <i class="fa-solid fa-play" tabindex="0"></i>
+                </div>
+                <div class="controls2">
+                  <div class="control">
+                    <input type="number" value="1" placeholder="العدد" class="quantity" />
+                    <i class="fa-solid fa-play add" tabindex="0"></i>
+                    <i class="fa-solid fa-play minus" tabindex="0"></i>
+                  </div>
+                  <button class="btn">
+                    اضافة الى السلة
+                    <i class="fa-solid fa-shopping-cart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+                <div class="product-cat product-card">
+              <a href="./pages/product.html" class="product-image">
+                <img class="img" src="./media/prod.png" alt="">
+              </a>
+              <div class="aText aText2">
+                <h3>نص تجريبي نص تجريبي</h3>
+                <div class="control control1">
+                  <button class="btn">
+                    12.00 دأ
+                  </button>
+                  <select>
+                    <option value=" ">اختيار الحجم</option>
+                  </select>
+                  <i class="fa-solid fa-play" tabindex="0"></i>
+                </div>
+                <div class="controls2">
+                  <div class="control">
+                    <input type="number" value="1" placeholder="العدد" class="quantity" />
+                    <i class="fa-solid fa-play add" tabindex="0"></i>
+                    <i class="fa-solid fa-play minus" tabindex="0"></i>
+                  </div>
+                  <button class="btn">
+                    اضافة الى السلة
+                    <i class="fa-solid fa-shopping-cart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+                <div class="product-cat product-card">
+              <a href="./pages/product.html" class="product-image">
+                <img class="img" src="./media/prod.png" alt="">
+              </a>
+              <div class="aText aText2">
+                <h3>نص تجريبي نص تجريبي</h3>
+                <div class="control control1">
+                  <button class="btn">
+                    12.00 دأ
+                  </button>
+                  <select>
+                    <option value=" ">اختيار الحجم</option>
+                  </select>
+                  <i class="fa-solid fa-play" tabindex="0"></i>
+                </div>
+                <div class="controls2">
+                  <div class="control">
+                    <input type="number" value="1" placeholder="العدد" class="quantity" />
+                    <i class="fa-solid fa-play add" tabindex="0"></i>
+                    <i class="fa-solid fa-play minus" tabindex="0"></i>
+                  </div>
+                  <button class="btn">
+                    اضافة الى السلة
+                    <i class="fa-solid fa-shopping-cart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end products  -->
+
+  <!-- start products  -->
+  <header class="bg title">
+    التصنيف الثاني
+  </header>
+  <div class="section" data-aos="fade-left" data-aos-duration="1000">
+    <div class="box">
+      <div class="swiper produtsCats" id="ps2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+                <div class="product-cat product-card">
+              <a href="./pages/product.html" class="product-image">
+                <img class="img" src="./media/prod.png" alt="">
+              </a>
+              <div class="aText aText2">
+                <h3>نص تجريبي نص تجريبي</h3>
+                <div class="control control1">
+                  <button class="btn">
+                    12.00 دأ
+                  </button>
+                  <select>
+                    <option value=" ">اختيار الحجم</option>
+                  </select>
+                  <i class="fa-solid fa-play" tabindex="0"></i>
+                </div>
+                <div class="controls2">
+                  <div class="control">
+                    <input type="number" value="1" placeholder="العدد" class="quantity" />
+                    <i class="fa-solid fa-play add" tabindex="0"></i>
+                    <i class="fa-solid fa-play minus" tabindex="0"></i>
+                  </div>
+                  <button class="btn">
+                    اضافة الى السلة
+                    <i class="fa-solid fa-shopping-cart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+                <div class="product-cat product-card">
+              <a href="./pages/product.html" class="product-image">
+                <img class="img" src="./media/prod.png" alt="">
+              </a>
+              <div class="aText aText2">
+                <h3>نص تجريبي نص تجريبي</h3>
+                <div class="control control1">
+                  <button class="btn">
+                    12.00 دأ
+                  </button>
+                  <select>
+                    <option value=" ">اختيار الحجم</option>
+                  </select>
+                  <i class="fa-solid fa-play" tabindex="0"></i>
+                </div>
+                <div class="controls2">
+                  <div class="control">
+                    <input type="number" value="1" placeholder="العدد" class="quantity" />
+                    <i class="fa-solid fa-play add" tabindex="0"></i>
+                    <i class="fa-solid fa-play minus" tabindex="0"></i>
+                  </div>
+                  <button class="btn">
+                    اضافة الى السلة
+                    <i class="fa-solid fa-shopping-cart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+                <div class="product-cat product-card">
+              <a href="./pages/product.html" class="product-image">
+                <img class="img" src="./media/prod.png" alt="">
+              </a>
+              <div class="aText aText2">
+                <h3>نص تجريبي نص تجريبي</h3>
+                <div class="control control1">
+                  <button class="btn">
+                    12.00 دأ
+                  </button>
+                  <select>
+                    <option value=" ">اختيار الحجم</option>
+                  </select>
+                  <i class="fa-solid fa-play" tabindex="0"></i>
+                </div>
+                <div class="controls2">
+                  <div class="control">
+                    <input type="number" value="1" placeholder="العدد" class="quantity" />
+                    <i class="fa-solid fa-play add" tabindex="0"></i>
+                    <i class="fa-solid fa-play minus" tabindex="0"></i>
+                  </div>
+                  <button class="btn">
+                    اضافة الى السلة
+                    <i class="fa-solid fa-shopping-cart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+                <div class="product-cat product-card">
+              <a href="./pages/product.html" class="product-image">
+                <img class="img" src="./media/prod.png" alt="">
+              </a>
+              <div class="aText aText2">
+                <h3>نص تجريبي نص تجريبي</h3>
+                <div class="control control1">
+                  <button class="btn">
+                    12.00 دأ
+                  </button>
+                  <select>
+                    <option value=" ">اختيار الحجم</option>
+                  </select>
+                  <i class="fa-solid fa-play" tabindex="0"></i>
+                </div>
+                <div class="controls2">
+                  <div class="control">
+                    <input type="number" value="1" placeholder="العدد" class="quantity" />
+                    <i class="fa-solid fa-play add" tabindex="0"></i>
+                    <i class="fa-solid fa-play minus" tabindex="0"></i>
+                  </div>
+                  <button class="btn">
+                    اضافة الى السلة
+                    <i class="fa-solid fa-shopping-cart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+                <div class="product-cat product-card">
+              <a href="./pages/product.html" class="product-image">
+                <img class="img" src="./media/prod.png" alt="">
+              </a>
+              <div class="aText aText2">
+                <h3>نص تجريبي نص تجريبي</h3>
+                <div class="control control1">
+                  <button class="btn">
+                    12.00 دأ
+                  </button>
+                  <select>
+                    <option value=" ">اختيار الحجم</option>
+                  </select>
+                  <i class="fa-solid fa-play" tabindex="0"></i>
+                </div>
+                <div class="controls2">
+                  <div class="control">
+                    <input type="number" value="1" placeholder="العدد" class="quantity" />
+                    <i class="fa-solid fa-play add" tabindex="0"></i>
+                    <i class="fa-solid fa-play minus" tabindex="0"></i>
+                  </div>
+                  <button class="btn">
+                    اضافة الى السلة
+                    <i class="fa-solid fa-shopping-cart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end products  -->
+
+
+
+  <!-- start footer -->
+  <footer>
+    <div class="box footer">
+      <div class="footerLogo">
+        <img src="./media/logo.png" alt="">
+      </div>
+      <div class="footerLinkGroup">
+        <div class="linkGroup">
+          <h2>روابط مفيدة</h2>
+          <ul>
+            <li><a href="./index.html"><img src="./media/icons/footerLink.png" alt=""> الرئيسية</a></li>
+            <li><a href="./pages/products.html"><img src="./media/icons/footerLink.png" alt=""> منتجاتنا</a></li>
+            <li><a href="./pages/about.html"><img src="./media/icons/footerLink.png" alt=""> من نحن</a></li>
+            <li><a href="./pages/contact.html"><img src="./media/icons/footerLink.png" alt=""> تواصل معنا</a></li>
+          </ul>
+        </div>
+
+        <div class="linkGroup cont">
+          <h2>تواصل معنا</h2>
+          <ul>
+            <li><a href="##">
+                <img src="./media/icons/location.png" alt="">
+                الأردن - عمان - الرابية
+              </a></li>
+            <li><a href="tel:+9620788880904"><img src="./media/icons/call.png" alt="">+9620788880904</a></li>
+            <li><a href="mailto:info@jawhartalsharq.com"><img src="./media/icons/mail.png" alt="">
+                info@jawhartalsharq.com</a>
+            </li>
+          </ul>
+          <div class="media">
+            <a href="##"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="##"><i class="fa-brands fa-instagram"></i></a>
+            <a href="##"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="##"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="box copy">
+      جميع الحقوق محفوظة جوهرة الشرق <span>2025</span>
+    </div>
+  </footer>
+  <!-- end footer -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="./js/main.js"></script>
+  <script src="./js/swiper-bundle.min.js"></script>
+  <script src="./js/swiper.js"></script>
+  <script src="./js/search.js"></script>
+  <script src="./js/scroll.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
