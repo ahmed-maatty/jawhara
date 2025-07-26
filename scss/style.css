@@ -777,7 +777,7 @@ nav {
 
 .btn {
   padding: 0 40px;
-  height: 45px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -874,6 +874,8 @@ nav {
 }
 .product-cat .aText h3 {
   font-weight: 500;
+  font-size: 22px;
+  text-align: right;
 }
 .product-cat .aText p,
 .product-cat .aText span {
@@ -2305,11 +2307,11 @@ footer {
   background-color: transparent;
   background-color: #fff;
   border-radius: 15px;
-  height: 45px;
+  height: 40px;
   width: 100%;
   border: 1px solid #015f50;
   font-size: 1.05rem;
-  padding: 0 20px;
+  padding: 0 15px;
   color: #015f50;
 }
 .control .add {
@@ -2334,7 +2336,7 @@ footer {
 }
 .controls2 .btn {
   margin: 0;
-  height: 44px;
+  height: 40px;
   padding: 0 10px;
 }
 
@@ -2383,7 +2385,7 @@ footer {
 }
 
 .our-product-searchBar .search-bar {
-  height: 45px;
+  height: 40px;
   padding: 0 45px;
   border: 1px solid #02806b;
   border-radius: 8px;

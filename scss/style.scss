@@ -789,7 +789,7 @@ nav {
 }
 .btn {
   padding: 0 40px;
-  height: 45px;
+  height: 40px;
   @include flex();
   gap: 10px;
   color: #fff;
@@ -884,6 +884,8 @@ nav {
     gap: 10px;
     h3 {
       font-weight: 500;
+      font-size: 22px;
+      text-align: right;
     }
     p,
     span {
@@ -2289,11 +2291,11 @@ footer {
     @include noBorder;
     background-color: #fff;
     border-radius: 15px;
-    height: 45px;
+    height: 40px;
     width: 100%;
     border: 1px solid $main;
     font-size: 1.05rem;
-    padding: 0 20px;
+    padding: 0 15px;
     color: $main;
   }
   .add {
@@ -2317,7 +2319,7 @@ footer {
   }
   .btn {
     margin: 0;
-    height: 44px;
+    height: 40px;
     padding: 0 10px;
   }
 }
@@ -2369,7 +2371,7 @@ footer {
 
 .our-product-searchBar {
   .search-bar {
-    height: 45px;
+    height: 40px;
     padding: 0 45px;
     border: 1px solid $hover;
     border-radius: 8px;
